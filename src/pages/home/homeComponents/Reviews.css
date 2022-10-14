@@ -1,0 +1,94 @@
+.review-section {
+  width: 60%;
+  height: 30vh;
+  /* overflow-y: scroll; */
+  overflow: hidden;
+  margin: 0 auto;
+}
+.review-title-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.review-stars {
+  text-align: center;
+  transform: translateY(-10px);
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+.review-box {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: review 10s linear infinite alternate;
+}
+/* .review-box:nth-child(1) {
+  margin: 0 auto 40px auto;
+} */
+@keyframes review {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(0, -50vh);
+  }
+  100% {
+    transform: translate(0, -50vh);
+  }
+}
+.review {
+  font-size: 1.6rem;
+}
+.author {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 20vh 0;
+}
+
+@media screen and (max-width: 800px) {
+  .review-section {
+    overflow-y: scroll;
+  }
+  .review-box {
+    animation-play-state: paused;
+    border: 1px solid black;
+    margin: 0 0 20px 0;
+    padding: 10px;
+  }
+  .review {
+    font-size: 1.4rem;
+  }
+  .author {
+    margin: 0 0 0 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .review-section {
+    width: 90%;
+  }
+  .review {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .review {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .review-box {
+    width: 95%;
+  }
+  .review {
+    font-size: 1.05rem;
+  }
+}
