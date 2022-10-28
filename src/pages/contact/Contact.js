@@ -10,6 +10,7 @@ export const Contact = () => {
         action="/thank-you"
         method="POST"
         data-netlify="true"
+        netlify
       >
         <label className="name">Name:</label>
         <input placeholder="name" type="text" name="name" required />
