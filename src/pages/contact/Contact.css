@@ -52,3 +52,11 @@ textarea {
   resize: none;
   margin: 0 auto;
 }
+@media screen and (max-width: 450px) {
+  .form-container {
+    width: 90%;
+  }
+  input {
+    width: 95%;
+  }
+}
