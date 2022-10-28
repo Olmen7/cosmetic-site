@@ -6,7 +6,7 @@ export const Contact = () => {
     <div className="contact-container">
       <form
         className="form-container"
-        action="https://formsubmit.co/your@sethvicente1@gmail.com"
+        action="https://formsubmit.co/sethvicente1@gmail.com"
         method="POST"
       >
         <input type="hidden" name="_subject" value="Servin Brow Looks"></input>
