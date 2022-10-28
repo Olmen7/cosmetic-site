@@ -6,7 +6,8 @@ export const Contact = () => {
     <div className="contact-container">
       <form
         className="form-container"
-        name="contact"
+        name="Eyebrow-appointment"
+        action="/thank-you"
         method="POST"
         data-netlify="true"
       >

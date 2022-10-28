@@ -40,6 +40,7 @@ input {
   background-size: 201% 100%;
   background-position: bottom right;
   transition: all 0.4s;
+  color: black;
 }
 .button:hover {
   background-position: bottom left;
