@@ -6,12 +6,15 @@ export const Contact = () => {
     <div className="contact-container">
       <form
         className="form-container"
-        name="Eyebrow-appointment"
-        action="/thank-you"
+        action="https://formsubmit.co/your@sethvicente1@gmail.com"
         method="POST"
-        data-netlify="true"
-        netlify
       >
+        <input type="hidden" name="_subject" value="Servin Brow Looks"></input>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://olmentestsite1.netlify.app/thank-you"
+        ></input>
         <label className="name">Name:</label>
         <input placeholder="name" type="text" name="name" required />
         <label className="email">Email:</label>
