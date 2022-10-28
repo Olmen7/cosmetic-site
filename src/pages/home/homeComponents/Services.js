@@ -6,7 +6,7 @@ export const Services = () => {
     <>
       <section className="service-section">
         <div className="service-card">
-          <h2 className="service-title">Eyelash Extension</h2>
+          <h2 className="service-title">Eyebrow Lamination</h2>
           <p className="service-info">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
             veritatis pariatur at veniam iste officiis magni aliquam! Nulla,
@@ -14,19 +14,11 @@ export const Services = () => {
           </p>
         </div>
         <div className="service-card">
-          <h2 className="service-title">Eyebrow Threading</h2>
+          <h2 className="service-title">Henna(tweezer only)</h2>
           <p className="service-info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
             ducimus fugit dignissimos pariatur corporis voluptas explicabo
             fugiat, ad nam ut!
-          </p>
-        </div>
-        <div className="service-card">
-          <h2 className="service-title">Microblading</h2>
-          <p className="service-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            consectetur, aliquid minima mollitia labore deserunt autem quis
-            quisquam magnam. Laudantium.
           </p>
         </div>
       </section>

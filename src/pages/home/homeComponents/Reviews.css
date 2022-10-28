@@ -26,7 +26,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  animation: review 10s linear infinite alternate;
+  animation: review 7s linear infinite alternate;
 }
 /* .review-box:nth-child(1) {
   margin: 0 auto 40px auto;
@@ -39,19 +39,21 @@
     transform: translate(0, 0);
   }
   75% {
-    transform: translate(0, -50vh);
+    transform: translate(0, -15vh);
   }
   100% {
-    transform: translate(0, -50vh);
+    transform: translate(0, -25vh);
   }
 }
 .review {
+  flex-basis: 100%;
   font-size: 1.6rem;
+  text-align: center;
 }
 .author {
   font-size: 1.2rem;
   font-weight: 600;
-  margin: 0 0 20vh 0;
+  margin: 0 0 10vh 0;
 }
 
 @media screen and (max-width: 800px) {

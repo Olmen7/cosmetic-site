@@ -1,14 +1,16 @@
 export const ReviewData = [
   {
     id: 0,
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum at itaque quasi ut dolorum iusto, in, sapiente est cum hic tempore blanditiis quaerat provident vero aliquid! Pariatur vel perferendis praesentium?",
-    author: "Vanessa",
+    review: "TY FOR SLAYING MY BROWS",
+    author: "Jaime",
   },
   {
     id: 1,
-    review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid in, culpa, ipsam quo voluptates commodi rem aut quae perspiciatis saepe aspernatur tempora ducimus eveniet vero autem cumque nobis eaque ipsa.",
-    author: "Eliza",
+    review: "I love them so much !! You transformed me",
+    author: "Anonymous",
+  },
+  {
+    review: "I love them! Thank you",
+    author: "Lesley",
   },
 ];

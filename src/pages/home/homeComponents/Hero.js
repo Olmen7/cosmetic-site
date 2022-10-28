@@ -26,7 +26,7 @@ export const Hero = () => {
         <div className="top-hero-img"></div>
         <header className="header">
           <h1>
-            <Title copy="Alondra's Cosmetics" role="header"></Title>
+            <Title copy="Servin Brow Looks" role="header"></Title>
           </h1>
         </header>
         {/* <div className="hero-cta-container">

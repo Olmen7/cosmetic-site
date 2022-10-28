@@ -5,8 +5,17 @@ import "./component.css";
 export const Navbar = () => {
   return (
     <>
-      <nav>
-        <Link to="/" className="nav-item"></Link>
+      <nav className="navbar-container">
+        <Link to="/">
+          <img
+            className="nav-logo"
+            src={require("../assets/alondra-icon-flower.png")}
+            alt="home-flower-icon"
+          ></img>
+        </Link>
+        <Link to="/contact" className="nav-contact">
+          Contact
+        </Link>
       </nav>
     </>
   );

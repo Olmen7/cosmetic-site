@@ -12,7 +12,7 @@
       rgba(0, 0, 0, 0.2) 10%,
       rgba(0, 0, 0, 0.2) 90%
     ),
-    url("https://images.unsplash.com/photo-1585885970325-81cba4494c27?");
+    url("../../../assets/eyebrow-laminate.png");
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
@@ -23,7 +23,7 @@
       rgba(0, 0, 0, 0.2) 10%,
       rgba(0, 0, 0, 0.2) 90%
     ),
-    url("https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?");
+    url("../../../assets/eyebrow-henna.png");
   background-size: cover;
   background-position: center center;
   border-radius: 5px;

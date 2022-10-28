@@ -7,15 +7,19 @@ export const ServicesPT2 = () => {
     <>
       <section className="servicespt2-container">
         <div className="service-img">
-          <h3 className="service-pt2-title">Microblading</h3>
+          <h3 className="service-pt2-title">Eyebrow Laminating</h3>
           <span>
-            <Link className="cta">Book Now</Link>
+            <Link to="/contact" className="cta">
+              Book Now
+            </Link>
           </span>
         </div>
         <div className="service-img">
           <h3 className="service-pt2-title">Eyebrow Threading</h3>
           <span>
-            <Link className="cta">Book Now</Link>
+            <Link to="/contact" className="cta">
+              Book Now
+            </Link>
           </span>
         </div>
       </section>
