@@ -8,17 +8,17 @@ export const Services = () => {
         <div className="service-card">
           <h2 className="service-title">Eyebrow Lamination</h2>
           <p className="service-info">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-            veritatis pariatur at veniam iste officiis magni aliquam! Nulla,
-            atque culpa.
+            Eyebrow lamination is a service that provides more full brows. It is
+            an alternative to microblading. It is less invasive and does not
+            hurt or cause discomfort.
           </p>
         </div>
         <div className="service-card">
           <h2 className="service-title">Henna(tweezer only)</h2>
           <p className="service-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            ducimus fugit dignissimos pariatur corporis voluptas explicabo
-            fugiat, ad nam ut!
+            Henna is the process of dying your skin to make your brows look more
+            full and thicker. There are different color tints that work best for
+            your eyebrows and skin.
           </p>
         </div>
       </section>
