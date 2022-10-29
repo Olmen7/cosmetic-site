@@ -13,7 +13,7 @@ export const Contact = () => {
         <input
           type="hidden"
           name="_next"
-          value="https://olmentestsite1.netlify.app/thank-you"
+          value="https://servinbrowlooks.com/thank-you"
         ></input>
         <label className="name">Name:</label>
         <input placeholder="name" type="text" name="name" required />
