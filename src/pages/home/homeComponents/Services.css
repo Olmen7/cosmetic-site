@@ -8,6 +8,7 @@
   margin: 20px 0;
   border: 2px solid grey;
   border-radius: 10px;
+  box-shadow: 3px 3px 10px inset black;
   padding: 10px;
 }
 .service-title {
