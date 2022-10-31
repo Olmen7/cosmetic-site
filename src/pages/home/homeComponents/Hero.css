@@ -18,7 +18,7 @@
   margin: 30px 0;
   flex-basis: 100%;
 }
-h1 span {
+.hero-title span {
   position: relative;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -52,7 +52,7 @@ h1 span {
   .top-hero-img {
     height: 15vh;
   }
-  h1 span {
+  .hero-title span {
     font-size: 1.8rem;
   }
 }

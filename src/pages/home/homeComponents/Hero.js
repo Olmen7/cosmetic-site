@@ -25,7 +25,7 @@ export const Hero = () => {
       <section className="hero-container">
         <div className="top-hero-img"></div>
         <header className="header">
-          <h1>
+          <h1 className="hero-title">
             <Title copy="Servin Brow Looks" role="header"></Title>
           </h1>
         </header>

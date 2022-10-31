@@ -15,7 +15,7 @@
 
 .review-stars {
   text-align: center;
-  transform: translateY(-10px);
+  /* transform: translateY(-10px); */
   font-size: 1.5rem;
   letter-spacing: 5px;
 }
