@@ -1,0 +1,22 @@
+.service-info-container {
+  width: 100%;
+  margin: 20vh 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.service-info-card {
+  width: 400px;
+  border: 3px solid white;
+  box-shadow: 3px 3px 10px black;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(253, 169, 211);
+}
+.service-info-title {
+  font-size: 1.8rem;
+}
+.service-info-description {
+  font-size: 1.2rem;
+  margin: 10px 5px;
+}
