@@ -1,24 +1,41 @@
 .info-container {
   padding: 10vh 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
   background: rgba(255, 255, 255, 0.411);
 }
-.info-title {
-  width: 60%;
+.info-left-side {
+  width: 400px;
   text-align: center;
+}
+.info-title {
+  text-align: center;
+  font-family: cursive, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
   font-size: 2rem;
   margin: 0 0 40px 0;
 }
 .info-description {
-  width: 60%;
   font-size: 1.2rem;
   text-align: center;
 }
+.info-right-side {
+  width: 350px;
+  height: 400px;
+  background: url("../../../assets/servin-after-appointment.png");
+  background-size: cover;
+  background-position: center;
+}
 @media screen and (max-width: 450px) {
   .info-description {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     width: 90%;
+  }
+  .info-right-side {
+    width: 300px;
+    height: 350px;
   }
 }

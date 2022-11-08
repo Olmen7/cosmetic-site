@@ -9,7 +9,7 @@ export const Navbar = () => {
         <Link to="/">
           <img
             className="nav-logo"
-            src={require("../assets/alondra-icon-flower.png")}
+            src={require("../assets/browlogo.png")}
             alt="home-flower-icon"
           ></img>
         </Link>

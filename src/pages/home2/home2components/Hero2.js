@@ -12,9 +12,7 @@ export const Hero2 = () => {
         </h1>
         <div className="hero-cta-container">
           <h3 className="hero2-description">
-            I am a small business based in Paramount, CA. I do eyebrow
-            Lamination and Henna (tweezers). I don't use any type of glue on
-            brows.
+            Paramount based eyebrow lamination and henna services (tweezers)
           </h3>
           <Link to="contact" className="hero-cta">
             Contact Me

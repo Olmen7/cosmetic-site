@@ -7,7 +7,7 @@
   height: 85vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("https://images.unsplash.com/photo-1496817763416-2f4494189b95");
-  background-size: center;
+  background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@
   width: fit-content;
   text-align: center;
   margin: 5vh 0 0 0;
-  color: rgb(202, 173, 93);
+  color: #caad5d;
   font-size: 5rem;
 }
 .hero-cta-container {
@@ -26,9 +26,10 @@
   height: fit-content;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 15px;
   justify-content: center;
   margin: 25vh 0 0 0;
-  background-color: rgba(64, 138, 77, 0.3);
+  background-color: rgba(64, 138, 77, 0.6);
 }
 .hero2-description {
   width: 100%;
@@ -44,19 +45,16 @@
   font-size: 2rem;
   color: whitesmoke;
   margin: 10px 0;
-  border-radius: 10px;
   font-weight: 900;
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.6) 50%,
-    transparent 50%
-  );
-  background-size: 201% 100%;
-  background-position: bottom right;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
   transition: 0.4s all;
 }
 .hero-cta:hover {
-  background-position: bottom left;
+  letter-spacing: 4px;
+  color: black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
 }
 @media screen and (max-width: 1050px) {
   .hero-cta-container {
