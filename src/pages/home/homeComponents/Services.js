@@ -14,7 +14,7 @@ export const Services = () => {
           </p>
         </div>
         <div className="service-card">
-          <h2 className="service-title">Henna(tweezer only)</h2>
+          <h2 className="service-title">Henna</h2>
           <p className="service-info">
             Henna is the process of dying your skin to make your brows look more
             full and thicker. There are different color tints that work best for

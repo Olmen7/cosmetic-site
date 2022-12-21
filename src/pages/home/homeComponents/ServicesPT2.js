@@ -15,7 +15,7 @@ export const ServicesPT2 = () => {
           </span>
         </div>
         <div className="service-img">
-          <h3 className="service-pt2-title">Henna (tweezers only)</h3>
+          <h3 className="service-pt2-title">Henna</h3>
           <span>
             <Link to="/contact" className="cta">
               Book Now
