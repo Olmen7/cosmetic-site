@@ -5,20 +5,23 @@
 }
 .service-card {
   margin: 20px 0;
-  box-shadow: 3px 3px 10px black;
+  box-shadow: 3px 3px 10px #6d6d6d;
   width: 400px;
-  border: 4px solid white;
+  border: 4px solid #fa38a3c2;
   padding: 10px;
   border-radius: 15px;
   text-align: center;
-  background-color: #e4b4cc;
+  background-color: #ccb1e746;
 }
 .service-title {
   text-align: center;
   padding: 10px 0;
+  color: #422711;
 }
 .service-info {
   padding: 5px;
+  font-size: 1.1rem;
+  color: #a8642a;
 }
 @media screen and (max-width: 450px) {
   .service-card {

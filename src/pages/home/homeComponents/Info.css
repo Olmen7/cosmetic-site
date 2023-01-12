@@ -17,16 +17,19 @@
     sans-serif;
   font-size: 2rem;
   margin: 0 0 40px 0;
+  color: #422711;
 }
 .info-description {
   font-size: 1.2rem;
   text-align: center;
+  color: #a8642a;
 }
 .info-right-side {
   width: 350px;
   height: 400px;
   background: url("../../../assets/servin-after-appointment.png");
   background-size: cover;
+  border-radius: 10px;
   background-position: center;
 }
 @media screen and (max-width: 450px) {

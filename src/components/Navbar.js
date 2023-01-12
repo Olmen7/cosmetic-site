@@ -7,11 +7,7 @@ export const Navbar = () => {
     <>
       <nav className="navbar-container">
         <Link to="/">
-          <img
-            className="nav-logo"
-            src={require("../assets/browlogo.png")}
-            alt="home-flower-icon"
-          ></img>
+          <div className="nav-logo"></div>
         </Link>
         <Link to="/contact" className="nav-contact">
           Contact
