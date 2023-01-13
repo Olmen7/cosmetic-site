@@ -1,0 +1,19 @@
+.socials-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 0 100px 0;
+}
+.socials-title {
+  font-size: 2rem;
+  flex-basis: 100%;
+  text-align: center;
+  margin: 0 0 80px 0;
+}
+.instagram-logo {
+  width: 50px;
+  transition: all 0.4s;
+}
+.instagram-logo:hover {
+  transform: scale(1.5) rotate(360deg);
+}
